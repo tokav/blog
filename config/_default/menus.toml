@@ -1,0 +1,4 @@
+[[navbar]]
+name = 'Blog'
+pageRef = '/'
+weight = 10

@@ -1,0 +1,21 @@
+baseURL = 'https://codingdabble.com'
+title = 'CodingDabble'
+theme = 'hugo-theme-monochrome'
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+paginate = 5
+enableGitInfo = true
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    series = "series"
+
+[outputs]
+    home = ['html', 'rss']
+    page = ['html']
+    rss = ['rss']
+    section = ['html', 'rss']
+    taxonomy = ['html', 'rss']
+    term = ['html', 'rss']
