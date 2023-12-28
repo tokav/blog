@@ -1,11 +1,18 @@
 +++
-title = 'About'
-date = 2023-12-28T11:26:32+01:00
+title = "About"
+date = 2023-12-28T14:24:02+01:00
+lastmod = 2023-12-28T14:29:49+01:00
 draft = true
-menu = 'navbar'
+weight = 99
 toc = false
+description = "About"
+keywords = ["about"]
+disqus = false
+[menu]
+  [menu.navbar]
+    identifier = "about"
 +++
 
-## About Me
+## About me {#about-me}
 
-About me page
+TBD
