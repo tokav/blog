@@ -1,0 +1,11 @@
+html[data-theme="dark"] {
+  #banner_light {
+    display: none;
+  }
+}
+
+html[data-theme="light"] {
+  #banner_dark {
+    display: none;
+  }
+}
