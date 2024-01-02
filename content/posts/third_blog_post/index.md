@@ -1,7 +1,8 @@
 +++
 title = "third blog post"
-lastmod = 2023-12-29T15:26:17+01:00
-draft = true
+date = 2024-01-02T15:15:00+01:00
+lastmod = 2024-01-02T15:15:52+01:00
+draft = false
 weight = 3003
 toc = false
 description = "third blog post"
