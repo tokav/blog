@@ -68,7 +68,7 @@ smartTOCHideUnfocusedChildren = false
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
-#  editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
+  # editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
   editAppendPath = true
   seriesOpened = true
   showHeadingAnchors = true
@@ -82,6 +82,7 @@ smartTOCHideUnfocusedChildren = false
   showAuthorsBadges = false
   showWordCount = false
   sharingLinks = false # or list of [ "linkedin", "twitter", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
+  showCategory = true
 
 [list]
   showHero = false
