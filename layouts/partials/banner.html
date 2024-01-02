@@ -1,8 +1,0 @@
-{{ $banner_l := resources.Get .light }}
-{{ $banner_l := $banner_l.Resize .resize }}
-{{ $banner_d := resources.Get .dark }}
-{{ $banner_d := $banner_d.Resize .resize }}
-
-<img id="banner_light" src="{{ $banner_l.RelPermalink }}" width="{{ $banner_l.Width }}" alt="banner-light" />
-<img id="banner_dark" src="{{ $banner_d.RelPermalink }}" width="{{ $banner_d.Width }}" alt="banner-dark" />
-

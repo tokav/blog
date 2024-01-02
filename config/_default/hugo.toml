@@ -1,22 +1,78 @@
+## ############################# General ###############################
 baseURL = 'https://codingdabble.com'
 title = 'CodingDabble'
-theme = 'hugo-theme-monochrome'
+
+theme = 'blowfish'
+
 languageCode = "en"
 defaultContentLanguage = "en"
-enableEmoji = true
-paginate = 5
-enableGitInfo = true
 
+enableEmoji = true
+enableRobotsTXT = true
+
+paginate = 15
+summaryLength = 30
+
+## ############################# Imaging ###############################
+[imaging]
+    anchor = 'Center'
+
+## ############################# Taxonomies ###############################
 [taxonomies]
     category = "categories"
     tag = "tags"
     series = "series"
 
-
+## ############################# Outputs ###############################
 [outputs]
-    home = ['html', 'rss']
+    home = ['html', 'rss', 'json']
     page = ['html']
     rss = ['rss']
     section = ['html', 'rss']
     taxonomy = ['html', 'rss']
     term = ['html', 'rss']
+
+## ############################# Sitemap ###############################
+[sitemap]
+    changefreq = 'always'
+    filename = 'sitemap.xml'
+    priority = 0.5
+
+## ############################# Markup ###############################
+[markup.goldmark]
+[markup.goldmark.render]
+    unsafe = true
+
+[markup.highlight]
+    noClasses = false
+
+[markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+
+## ############################# Related ###############################
+[related]
+    threshold = 0
+    toLower = false
+
+[[related.indices]]
+    name = "tags"
+    weight = 100
+
+[[related.indices]]
+    name = "categories"
+    weight = 100
+
+[[related.indices]]
+    name = "series"
+    weight = 50
+
+[[related.indices]]
+    name = "date"
+    weight = 10
+
+[[related.indices]]
+    applyFilter = false
+    name = 'fragmentrefs'
+    type = 'fragments'
+    weight = 10

@@ -4,3 +4,6 @@
 [submodule "themes/congo"]
 	path = themes/congo
 	url = git@github.com:tkawczynski/hugo-theme-congo.git
+[submodule "themes/blowfish"]
+	path = themes/blowfish
+	url = git@github.com:tkawczynski/hugo-theme-blowfish.git
