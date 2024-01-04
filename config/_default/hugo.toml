@@ -1,6 +1,6 @@
 ## ############################# General ###############################
-baseURL = 'https://codingdabble.com'
-title = 'CodingDabble'
+baseURL = 'http://localhost:1313'
+title = 'Devdot.Blog'
 
 theme = 'blowfish'
 
