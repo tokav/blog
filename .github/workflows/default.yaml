@@ -51,6 +51,8 @@ jobs:
           context: .
           build-args: |
             BASE_URL=${{ vars.BASE_URL }}
+            HUGO_ENV=${{ vars.HUGO_ENV }}
+            COMENTARIO_BASE_URL=${{ vars.COMENTARIO_BASE_URL }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
