@@ -38,12 +38,15 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
 comentarioBaseUrl = "http://localhost:8080"
+listmonkBaseUrl = "http://localhost:9000"
+hCaptchaSiteKey = ""
 
 [header]
   layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
+  showNewsletter = true
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = false

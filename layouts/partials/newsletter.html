@@ -1,0 +1,19 @@
+<form method="post" action="{{ .Site.Params.listmonkBaseUrl }}/subscription/form" class="listmonk-form">
+    <div>
+        <h3 class="font-bold text-xl dark:text-neutral">Sign up for my newsletter</h3>
+        <input type="hidden" name="nonce" />
+        <input id="52f65" type="hidden" name="l" value="52f658a2-aa77-4088-9b8a-024ddea67901" />
+        <p>
+            <input type="email" name="email" required placeholder="E-mail" />
+            <button type="submit" class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">Subscribe</button>
+        </p>
+        {{ with .Site.Params.hCaptchaSiteKey }}
+        <div class="captcha">
+            <div class="h-captcha" data-sitekey="{{ . }}"></div>
+            <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+        </div>
+        {{ end }}
+
+    </div>
+</form>
+

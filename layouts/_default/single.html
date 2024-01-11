@@ -86,15 +86,17 @@
         {{ partial "sharing-links.html" . }}
         {{ partial "related.html" . }}  
       </div>
-     
-     <script>
-        var oid = "views_{{ .File.Path }}"
-        var oid_likes = "likes_{{ .File.Path }}"
-      </script>
-      {{ $jsPage := resources.Get "js/page.js" }}
-      {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
-      <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
-  
+      {{ if or (.Params.showViews | default (.Site.Params.article.showViews | default false)) (.Params.showLikes | default (.Site.Params.article.showLikes | default false)) }}
+        {{ with .File }}
+          <script>
+            var oid = "views_{{ .Path }}"
+            var oid_likes = "likes_{{ .Path }}"
+          </script>
+          {{ $jsPage := resources.Get "js/page.js" }}
+          {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
+          <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
+        {{ end }}
+      {{ end }}
     </section>
   <footer class="pt-8 max-w-prose print:hidden">
 
@@ -108,7 +110,7 @@
       </div>
     </div>
     {{ else }}
-    {{ warnf "[BLOWFISH] Comments are enabled for %s but no comments partial exists." .File.Path }}
+    {{ warnf "[BLOWFISH] Comments are enabled for %s but no comments partial exists." }}
     {{ end }}
     {{ end }}
   </footer>
