@@ -1,7 +1,7 @@
 +++
 title = "About Me"
 date = 2023-12-29T11:58:59+01:00
-lastmod = 2024-01-04T18:05:13+01:00
+lastmod = 2024-02-05T11:28:10+01:00
 draft = false
 weight = 99
 showTableOfContents = false
@@ -14,3 +14,4 @@ keywords = ["about", "personal"]
 +++
 
 TBD
+as

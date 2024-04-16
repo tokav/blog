@@ -1,7 +1,7 @@
 +++
-title = "Lismonk Mailsender Integration"
-lastmod = 2024-01-10T10:42:02+01:00
-tags = ["TODAY", "rust"]
+title = "Lism0onk Mailsender Integration"
+lastmod = 2024-04-13T18:29:12+02:00
+tags = ["rust"]
 categories = ["programming"]
 draft = true
 weight = 3001
