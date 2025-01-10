@@ -1,6 +1,6 @@
 +++
 title = "Lism0onk Mailsender Integration"
-lastmod = 2024-04-13T18:29:12+02:00
+lastmod = 2024-09-05T20:38:40+02:00
 tags = ["rust"]
 categories = ["programming"]
 draft = true
@@ -20,3 +20,4 @@ My post summary.
 -   Implementing Messenger endpoint
 -   Implementing Webhook endpoint
 -   Summary
+-   Updated entry
