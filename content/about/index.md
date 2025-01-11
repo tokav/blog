@@ -1,19 +1,28 @@
 +++
 title = "About Me"
 date = 2023-12-29T11:58:59+01:00
-lastmod = 2025-01-11T11:47:28+01:00
+lastmod = 2025-01-11T14:23:30+01:00
 draft = false
 weight = 99
-showTableOfContents = false
-showRelatedContent = false
-showHeader = true
-showDate = false
-showComments = false
-description = "About"
+showToc = false
+showBreadCrumbs = false
+comments = false
+ShowReadingTime = false
+[cover]
+  image = "/_images/pages/about/about-me-cover.png"
+  relative = false
+  alt = "About me cover"
 keywords = ["about", "personal"]
 searchHidden = true
 +++
 
-TBD
-as
-Updated
+## Welcome to my blog {#welcome-to-my-blog}
+
+I’m a software developer and architect with over 15 years of experience in the tech industry. For
+most of my career, I've been primarily a Java developer, but over the past few years, I've branched
+out to other technologies like Python and Node.js.
+
+This space is a record of my personal experiences, observations, and lessons learned in the trenches
+of software engineering.
+
+I hope you will find value in reviewing my notes.

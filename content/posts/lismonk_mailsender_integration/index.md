@@ -1,6 +1,6 @@
 +++
 title = "Lism0onk Mailsender Integration"
-lastmod = 2025-01-11T12:01:53+01:00
+lastmod = 2025-01-11T14:36:30+01:00
 tags = ["rust"]
 categories = ["programming"]
 draft = true
@@ -11,7 +11,7 @@ ShowPostNavLinks = true
 ShowCodeCopyButtons = true
 comments = true
 description = "Lismonk Mailsender Integration"
-keywords = ["kw1"]
+keywords = ["rust", "integration"]
 +++
 
 My post summary.
@@ -29,6 +29,3 @@ My post summary.
 
 
 ## Some heading 1 {#some-heading-1}
-
-
-## Some heading 2 {#some-heading-2}

@@ -2,7 +2,7 @@
 title = "Lorem Ipsum"
 date = 2024-01-02T15:46:00+01:00
 publishDate = 2023-12-29T00:00:00+01:00
-lastmod = 2024-01-17T10:58:36+01:00
+lastmod = 2025-01-11T14:25:37+01:00
 draft = false
 weight = 3001
 toc = false

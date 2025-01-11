@@ -10,7 +10,7 @@ env = "development"
 defaultTheme = "light"    # valid options: light or dark
 disableThemeToggle = true
 
-socialIcons = [{ name = "github", url = "https://github.com/tkawczynski" }]
+socialIcons = [{ name = "github", url = "https://github.com/tokav" }]
 
 label.icon = "images/logo_light.png"
 label.iconHeight = 40
@@ -25,7 +25,7 @@ comments = true
 
 [homeInfoParams]
 Title = "Code, Document, Repeat"
-Content = "Capturing programming experiences, one note at a time"
+Content = "Jotting down my experiences as a software developer, one note at a time"
 
 [fuseOpts]
 isCaseSensitive = false
