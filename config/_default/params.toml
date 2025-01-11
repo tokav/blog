@@ -5,7 +5,7 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-env = "development"
+env = "development" # valid options: development or production
 
 defaultTheme = "light"    # valid options: light or dark
 disableThemeToggle = true
@@ -36,3 +36,11 @@ threshold = 0.4
 minMatchCharLength = 0
 # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
 keys = ["title", "permalink", "summary", "content"]
+
+[giscus]
+enabled = false
+repoName = ""
+repoId = ""          ## Use https://api.github.com/repos/USER/REPO to get repoID (JSON property 'node_id')
+categoryId = ""
+mapping = "pathname"
+theme = "light"

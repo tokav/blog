@@ -1,1 +1,21 @@
-<div>Comments</div>
+{{- with site.Params.giscus }}
+{{- if .enabled -}}
+<div>
+  <script src="https://giscus.app/client.js"
+          data-repo="{{ .repoName }}"
+          data-repo-id="{{ .repoId }}"
+          data-category="General"
+          data-category-id="{{ .categoryId }}"
+          data-mapping="{{ .mapping }}"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="{{ .theme }}"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+  </script>
+</div>
+{{- end -}}
+{{- end -}}
