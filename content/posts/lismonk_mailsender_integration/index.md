@@ -1,17 +1,20 @@
 +++
 title = "Lism0onk Mailsender Integration"
-lastmod = 2024-09-05T20:38:40+02:00
+lastmod = 2025-01-11T12:01:53+01:00
 tags = ["rust"]
 categories = ["programming"]
 draft = true
 weight = 3001
-showComments = true
+showToc = true
+showBreadCrumbs = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+comments = true
 description = "Lismonk Mailsender Integration"
+keywords = ["kw1"]
 +++
 
 My post summary.
-
-<!--more-->
 
 -   Listmonk presentation
 -   Mailsender presentation
@@ -21,3 +24,11 @@ My post summary.
 -   Implementing Webhook endpoint
 -   Summary
 -   Updated entry
+
+<!--more-->
+
+
+## Some heading 1 {#some-heading-1}
+
+
+## Some heading 2 {#some-heading-2}

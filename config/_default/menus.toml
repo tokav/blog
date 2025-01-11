@@ -8,12 +8,7 @@ name = 'About'
 pageRef = 'about'
 weight = 30
 
-[[footer]]
+[[main]]
 name = 'Tags'
 pageRef = 'tags'
-weight = 10
-
-[[footer]]
-name = 'About'
-pageRef = 'about'
-weight = 20
+weight = 40
