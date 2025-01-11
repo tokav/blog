@@ -1,7 +1,5 @@
 +++
 title = "About Me"
-date = 2023-12-29T11:58:59+01:00
-lastmod = 2025-01-11T14:23:30+01:00
 draft = false
 weight = 99
 showToc = false
