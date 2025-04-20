@@ -1,7 +1,8 @@
 [giscus]
 enabled = true
-repoName = "tokav/blog-comments"
-repoId = "R_kgDONo5b4g"             ## Use https://api.github.com/repos/USER/REPO to get repoID (JSON property 'node_id')
-categoryId = "DIC_kwDONo5b4s4Cl7gC"
-mapping = "pathname"
+repoName = "tokav/blog"
+repoId = "R_kgDOK-2Lfw"             ## Use https://api.github.com/repos/USER/REPO to get repoID (JSON property 'node_id')
+categoryName = "Blog"
+categoryId = "DIC_kwDOK-2Lf84CpRvb"
+mapping = "og:title"
 theme = "light"
