@@ -13,6 +13,10 @@ enableRobotsTXT = true
 pagination.pagerSize = 15
 summaryLength = 30
 
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
 ## ############################# Imaging ###############################
 [imaging]
 anchor = 'Center'
